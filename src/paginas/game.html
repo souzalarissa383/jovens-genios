@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <meta http-equiv="X-UA-Compatible" content="ie-edge"/>
+        <link rel="stylesheet" href="../styles/app.css"/>
+        <link rel="stylesheet" href="../styles/game.css"/>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:ital@1&display=swap" rel="stylesheet">
+    </head>
+    <body id="palco"><!-- obs -->
+        <div class="container">
+            <div id="loader"></div>
+            <div id="game" class="justify-center flex-column hidden">
+                <div id="hud">
+                    <div id="hud-item">
+                        <p id="progressText" class="hud-prefix"style="color:white;">
+                            Questão
+                        </p> 
+                        <div id="progressBar">
+                            <div id="progressBarFull"></div>
+                        </div>         
+                    </div>
+                    <div id="hud-item">
+                        <p class="hud-prefix" style="color:white;">
+                            Pontos
+                        </p>        
+                        <h1 class="hud-main-text" id="pontuacao" style="color:white;">
+                            0
+                        </h1>                
+                    </div>
+                </div>
+                <h2 id="questao" ></h2>
+                <div class="perguntas-container ">
+                    <p class="letra-questao">A</p>
+                    <p class="opcao" data-number="1"></p>
+                </div>
+                
+                <div class="perguntas-container">
+                    <p class="letra-questao">B</p>
+                    <p class="opcao" data-number="2"></p>
+                </div>
+                
+                <div class="perguntas-container">
+                    <p class="letra-questao">C</p>
+                    <p class="opcao" data-number="2"></p>
+                </div>
+                
+                <div class="perguntas-container">
+                    <p class="letra-questao">D</p>
+                    <p class="opcao" data-number="2"></p>
+                </div>
+
+            </div>
+        </div>
+        <script src="../javascript/game.js"></script>
+    </body>
+</html>

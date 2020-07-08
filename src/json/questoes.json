@@ -1,0 +1,26 @@
+[
+    {
+        "questao" : "Qual é o nome dado ao estado da água em forma de gelo?",
+        "opcao1" : " SÓLIDO",
+        "opcao2" : "LÍQUIDO",
+        "opcao3" : "GASOSO",
+        "opcao4" : "VAPOROSO",
+        "alternativa" : 1
+    },
+    {
+        "questao" : "Qual era o apelido da cantora Elis Regina?",
+        "opcao1" : "GAUCHINHA",
+        "opcao2" : "PAULISTINHA",
+        "opcao3" : "PIMENTINHA",
+        "opcao4" : "ANDORINHA",
+        "alternativa" : 3
+    },
+    {
+        "questao" : "Qual é o personagem do folclore brasileiro que tem uma perna só? ",
+        "opcap1" : "CUCA",
+        "opcao2" : "NEGRINHO DO PASTOREIO",
+        "opcao3" : "BOITATÁ",
+        "opcao4" : "SACI-PERERÊ",
+        "alternativa" : 4
+    }
+]
